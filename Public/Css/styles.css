@@ -220,3 +220,13 @@ hr {
         opacity: 0
     }
 }
+
+.tags {
+    display: flex;
+    align-items: center;
+  }
+
+.tags>ul>li{
+    float:left;
+    list-style: none;
+}

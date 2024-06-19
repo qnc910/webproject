@@ -4,19 +4,19 @@ function addTopNav() {
 	<div class="top-nav group">
         <section>
             <div class="social-top-nav">
-                <a class="fa fa-facebook"></a>
-                <a class="fa fa-twitter"></a>
-                <a class="fa fa-google"></a>
-                <a class="fa fa-youtube"></a>
+                <a class="fa fa-facebook"><img style="width:15px; height:15px; opacity:0.5; padding-top: 7px;" src="http://localhost/webproject/Public/Pictures/facebook.png"></a>
+                <a class="fa fa-twitter"><img style="width:13px; height:13px; opacity:0.5; padding-top: 7px;" src="http://localhost/webproject/Public/Pictures/twitter.png"></a>
+                <a class="fa fa-google"><img style="width:14px; height:14px; opacity:0.5; padding-top: 7px;" src="http://localhost/webproject/Public/Pictures/instagram.png"></a>
+                <a class="fa fa-youtube"><img style="width:15px; height:15px; opacity:0.5; padding-top: 7px;" src="http://localhost/webproject/Public/Pictures/youtube.png"></a>
             </div> <!-- End Social Topnav -->
 
             <ul class="top-nav-quicklink flexContain">
-                <li><a href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
-                <li><a href="tintuc.html"><i class="fa fa-newspaper-o"></i> Tin tức</a></li>
-                <li><a href="tuyendung.html"><i class="fa fa-handshake-o"></i> Tuyển dụng</a></li>
-                <li><a href="gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
-                <li><a href="trungtambaohanh.html"><i class="fa fa-wrench"></i> Bảo hành</a></li>
-                <li><a href="lienhe.html"><i class="fa fa-phone"></i> Liên hệ</a></li>
+                <li><a href="index.html"><i class="fa fa-home"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/home.png"></i> Trang chủ</a></li>
+                <li><a href="tintuc.html"><i class="fa fa-newspaper-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/news.png"></i> Tin tức</a></li>
+                <li><a href="tuyendung.html"><i class="fa fa-handshake-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/hand-shake.png"></i> Tuyển dụng</a></li>
+                <li><a href="gioithieu.html"><i class="fa fa-info-circle"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/information.png"></i> Giới thiệu</a></li>
+                <li><a href="trungtambaohanh.html"><i class="fa fa-wrench"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/wrench.png"></i> Bảo hành</a></li>
+                <li><a href="lienhe.html"><i class="fa fa-phone"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/telephone.png"></i> Liên hệ</a></li>
             </ul> <!-- End Quick link -->
         </section><!-- End Section -->
     </div><!-- End Top Nav  -->`);
@@ -28,7 +28,7 @@ function addHeader() {
 	<div class="header group">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
+                <img src="http://localhost/webproject/Public/Pictures/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
             </a>
         </div> <!-- End Logo -->
 
@@ -38,20 +38,27 @@ function addHeader() {
                     <div class="autocomplete">
                         <input id="search-box" name="search" autocomplete="off" type="text" placeholder="Nhập từ khóa tìm kiếm...">
                         <button type="submit">
-                            <i class="fa fa-search"></i>
+                            <i class="fa fa-search"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/search.png"></i>
                             Tìm kiếm
                         </button>
                     </div>
                 </form> <!-- End Form search -->
                 <div class="tags">
                     <strong>Từ khóa: </strong>
+                    <ul>
+                        <li><a href="">Samsung</a></li>
+                        <li><a href="">iPhone</a></li>
+                        <li><a href="">Huawei</a></li>
+                        <li><a href="">Oppo</a></li>
+                        <li><a href="">Mobi</a></li>
+                    </ul>
                 </div>
             </div> <!-- End Search header -->
 
             <div class="tools-member">
                 <div class="member">
                     <a onclick="checkTaiKhoan()">
-                        <i class="fa fa-user"></i>
+                        <i class="fa fa-user"><img style="width:15px; height:15px;" src="http://localhost/webproject/Public/Pictures/user.png"></i>
                         Tài khoản
                     </a>
                     <div class="menuMember hide">
@@ -63,7 +70,7 @@ function addHeader() {
 
                 <div class="cart">
                     <a href="giohang.html">
-                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa fa-shopping-cart"><img style="width:15px; height:15px;" src="http://localhost/webproject/Public/Pictures/cart.png"></i>
                         <span>Giỏ hàng</span>
                         <span class="cart-number"></span>
                     </a>
