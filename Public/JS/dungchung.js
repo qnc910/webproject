@@ -11,12 +11,12 @@ function addTopNav() {
             </div> <!-- End Social Topnav -->
 
             <ul class="top-nav-quicklink flexContain">
-                <li><a href="index.html"><i class="fa fa-home"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/home.png"></i> Trang chủ</a></li>
-                <li><a href="tintuc.html"><i class="fa fa-newspaper-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/news.png"></i> Tin tức</a></li>
-                <li><a href="tuyendung.html"><i class="fa fa-handshake-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/hand-shake.png"></i> Tuyển dụng</a></li>
-                <li><a href="gioithieu.html"><i class="fa fa-info-circle"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/information.png"></i> Giới thiệu</a></li>
-                <li><a href="trungtambaohanh.html"><i class="fa fa-wrench"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/wrench.png"></i> Bảo hành</a></li>
-                <li><a href="lienhe.html"><i class="fa fa-phone"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/telephone.png"></i> Liên hệ</a></li>
+                <li><a href="http://localhost/webproject/home"><i class="fa fa-home"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/home.png"></i> Trang chủ</a></li>
+                <li><a href="http://localhost/webproject/tintuc"><i class="fa fa-newspaper-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/news.png"></i> Tin tức</a></li>
+                <li><a href="http://localhost/webproject/tuyendung"><i class="fa fa-handshake-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/hand-shake.png"></i> Tuyển dụng</a></li>
+                <li><a href="http://localhost/webproject/gioithieu"><i class="fa fa-info-circle"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/information.png"></i> Giới thiệu</a></li>
+                <li><a href="http://localhost/webproject/trungtambaohanh"><i class="fa fa-wrench"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/wrench.png"></i> Bảo hành</a></li>
+                <li><a href="http://localhost/webproject/lienhe"><i class="fa fa-phone"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/telephone.png"></i> Liên hệ</a></li>
             </ul> <!-- End Quick link -->
         </section><!-- End Section -->
     </div><!-- End Top Nav  -->`);
