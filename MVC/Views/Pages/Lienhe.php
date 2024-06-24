@@ -15,28 +15,20 @@
         <div class="lienhe-info">
             <div class="info-left">
                 <p>
-                    <h2 style="color: gray"> CÔNG TY CỔ PHẦN H - GROUP </h2><br />
-                    <b>Địa chỉ:</b> 273 An Dương Vương, phường 3, Quận 5, TPHCM<br /><br />
-                    <b>Telephone:</b> 028 3835 4409<br /><br />
+                    <h2 style="color: gray"> GROUP 10th WEB </h2><br />
+                    <b>Địa chỉ:</b> 63A, Triều Khúc, Thanh Xuân, Hà Nội<br /><br />
+                    <b>Telephone:</b> 090 916 5598<br /><br />
                     <b>Hotline:</b> 097777777 - CSKH: 028 9996 777<br /><br />
-                    <b>Website:</b> <a href="https://github.com/HoangTran0410/DoAn_Web1">Github</a> <br /><br />
-                    <b>E-mail:</b> DoAn@gmail.com<br /><br />
+                    <b>Website:</b> <a href="https://github.com/qnc910/webproject.git">Github</a> <br /><br />
+                    <b>E-mail:</b> tavanmanhduc2004@gmail.com<br /><br />
                     <b>Mã số thuế:</b> 01 02 03 04 05<br /><br />
                     <b>Tài khoản ngân hàng :</b><br /><br />
-                    <b>Số TK:</b> 060008086888 <br /><br />
-                    <b>Tại Ngân hàng:</b> Agribank Chi nhánh Sài Gòn<br /><br /><br /><br />
+                    <b>Số TK:</b> 4521079098 <br /><br />
+                    <b>Tại Ngân hàng:</b> Ngân hàng đầu tư và phát triển chi nhánh Hà Tây<br /><br /><br /><br />
                     <b>Quý khách có thể gửi liên hệ tới chúng tôi bằng cách hoàn tất biểu mẫu dưới đây. Chúng tôi
                         sẽ trả lời thư của quý khách, xin vui lòng khai báo đầy đủ. Hân hạnh phục vụ và chân thành
                         cảm ơn sự quan tâm, đóng góp ý kiến đến Smartphone Store.</b>
                 </p>
-            </div>
-            <div class="info-right">
-                <iframe width="100%" height="450" src="https://maps.google.com/maps?width=100%&amp;height=450&amp;hl=en&amp;coord=10.759660000323064,106.68192160315813&amp;q=273%20An%20D%C6%B0%C6%A1ng%20V%C6%B0%C6%A1ng%20Ph%C6%B0%E1%BB%9Dng%203%20Qu%E1%BA%ADn%205%20H%E1%BB%93%20Ch%C3%AD%20Minh%20700000%2C%20Vi%E1%BB%87t%20Nam+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Embed
-                        Google Map
-                    </a>
-                </iframe>
-                <br />
             </div>
         </div>
         <div class="lienhe-info">
@@ -91,10 +83,11 @@
                     </tr>
                     <script>
                         var thongtin = [
-                            ["Trần Văn Hoàng", "3117410091", "Nam", "DCT1175", "%"],
-                            ["Đàm Thế Hào", "3117410065", "Nam", "DCT1175", "%"],
-                            ["Huỳnh Trung Hiển", "3117410072", "Nam", "DCT1173", "%"],
-                            ["Hoàng Hiệp", "3117410074", "Nam", "DCT1175", "%"]
+                            ["Tạ Văn Mạnh Đức", "73DCTT23218", "Nam", "73DCTT23", "20%"],
+                            ["Mai Thế Dân", "73DCTT23218", "Nam", "73DCTT23", "20%"],
+                            ["Nguyễn Trà My", "73DCTT23218", "Nữ", "73DCTT23", "20%"],
+                            ["Nguyễn Văn Sâm", "73DCTT23218", "Nam", "73DCTT23", "20%"],
+                            ["Ngô Thị Thanh Vân", "73DCTT23218", "Nữ", "73DCTT23", "20%"]
                         ]
                         for (var i = 0; i < thongtin.length; i++) {
                             document.write(

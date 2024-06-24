@@ -49,7 +49,7 @@
                     <tr>
                         <td class="col1">` + (i + 1) + `</td>
                         <td class="col2"> 
-                            <a href="`+link+`" target="_blank" title="Xem bản đồ">
+                            <a href="">
                                 ` + trungtam[i][0] +`
                             </a>
                         </td>

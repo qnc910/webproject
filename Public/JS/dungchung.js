@@ -15,7 +15,7 @@ function addTopNav() {
                 <li><a href="http://localhost/webproject/tintuc"><i class="fa fa-newspaper-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/news.png"></i> Tin tức</a></li>
                 <li><a href="http://localhost/webproject/tuyendung"><i class="fa fa-handshake-o"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/hand-shake.png"></i> Tuyển dụng</a></li>
                 <li><a href="http://localhost/webproject/gioithieu"><i class="fa fa-info-circle"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/information.png"></i> Giới thiệu</a></li>
-                <li><a href="http://localhost/webproject/trungtambaohanh"><i class="fa fa-wrench"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/wrench.png"></i> Bảo hành</a></li>
+                <li><a href="http://localhost/webproject/baohanh"><i class="fa fa-wrench"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/wrench.png"></i> Bảo hành</a></li>
                 <li><a href="http://localhost/webproject/lienhe"><i class="fa fa-phone"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/telephone.png"></i> Liên hệ</a></li>
             </ul> <!-- End Quick link -->
         </section><!-- End Section -->
@@ -36,7 +36,7 @@ function addHeader() {
             <div class="search-header" style="position: relative; left: 162px; top: 1px;">
                 <form class="input-search" method="get" action="index.html">
                     <div class="autocomplete">
-                        <input id="search-box" name="search" autocomplete="off" type="text" placeholder="Nhập từ khóa tìm kiếm...">
+                        <input id="search-box" name="txtTimkiem" autocomplete="off" type="text" placeholder="Nhập từ khóa tìm kiếm...">
                         <button type="submit">
                             <i class="fa fa-search"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/search.png"></i>
                             Tìm kiếm
@@ -69,7 +69,7 @@ function addHeader() {
                 </div> <!-- End Member -->
 
                 <div class="cart">
-                    <a href="giohang.html">
+                    <a href="http://localhost/webproject/giohang">
                         <i class="fa fa-shopping-cart"><img style="width:15px; height:15px;" src="http://localhost/webproject/Public/Pictures/cart.png"></i>
                         <span>Giỏ hàng</span>
                         <span class="cart-number"></span>
