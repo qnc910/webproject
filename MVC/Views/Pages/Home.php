@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,24 +69,12 @@
             </div>
 		</div>
 
-		<div class="starFilter dropdown">
-			<button class="dropbtn">Số lượng sao</button>
-			<div class="dropdown-content">
-                <a href="">Trên 2 sao</a>
-                <a href="">Trên 3 sao</a>
-                <a href="">Trên 4 sao</a>
-            </div>
-		</div>
 
 		<div class="sortFilter dropdown">
 			<button class="dropbtn">Sắp xếp</button>
 			<div class="dropdown-content">
                 <a href="">Giá tăng dần</a>
                 <a href="">Giá giảm dần</a>
-                <a href="">Sao tăng dần</a>
-                <a href="">Sao giảm dần</a>
-                <a href="">Đánh giá tăng dần</a>
-                <a href="">Đánh giá giảm dần</a>
                 <a href="">Tên A-Z</a>
                 <a href="">Tên Z-A</a>
             </div>
@@ -126,6 +117,7 @@
             <h3><?php echo $row['name']?></h3>
             <p class="price"><?php echo $row['price']?></p>
             <div class="rating">⭐⭐⭐⭐⭐ 0 đánh giá</div>
+            </div>
             <button class="add-to-cart">+</button>
         </div>
     </a>

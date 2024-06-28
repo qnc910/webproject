@@ -27,7 +27,7 @@ function addHeader() {
     document.write(`        
 	<div class="header group">
         <div class="logo">
-            <a href="index.html">
+            <a href="http://localhost/webproject/home">
                 <img src="http://localhost/webproject/Public/Pictures/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
             </a>
         </div> <!-- End Logo -->
