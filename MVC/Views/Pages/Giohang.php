@@ -11,7 +11,34 @@
 </head>
 <body>
     
-    <table class="listSanPham" > </table>
+    <table class="listSanPham" > 
+        <tr>
+            <th>STT</th>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th>Thời gian</th>
+            <th>Xóa</th>
+        </tr>
+        <?php
+            if(isset($data['dulieu']) && mysqli_num_rows($data['dulieu'])>0){
+                $i=0;
+                while($row = mysqli_fetch_array($data['dulieu'])){
+        ?>
+        <tr>
+            <td><?php echo ++$i ?></td>
+            <td><?php echo $row[''] ?></td>
+            <td><?php echo ++$i ?></td>
+            <td><?php echo ++$i ?></td>
+            <td><?php echo ++$i ?></td>
+            <td><?php echo ++$i ?></td>
+        </tr>
+        <?php
+                }
+            }
+        ?>
+    </table>
 
 </body>
 </html>

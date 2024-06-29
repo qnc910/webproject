@@ -21,13 +21,13 @@
     ?>
 
     <div class="chitietSanpham" style="margin-bottom: 100px">
-        <h1>Điện thoại </h1>
+        <h1>Điện thoại <?php echo $row['name']?></h1>
         <div class="rowdetail group">
             <div class="picture">
-                <img src="http://localhost/webproject/Public/Pictures/Products/<?php echo $row['img']?>" onclick="opencertain()">
+                <img src="http://localhost/webproject/Public/Pictures/Products/<?php echo $row['img']?>">
             </div>
             <div class="price_sale">
-                <div class="area_price"><b><p style="color:red;font-size:24px;">2000022₫</p></b></div>
+                <div class="area_price"><b><p style="color:red;font-size:24px;"><?php echo $row['price']?>₫</p></b></div>
                 <div class="ship">
                     <img src="http://localhost/webproject/Public/Pictures/clock.png">
                     <div>NHẬN HÀNG TRONG 1 GIỜ</div>
@@ -64,15 +64,15 @@
             <div class="info_product">
                 <h2>Thông số kỹ thuật</h2>
                 <ul class="info">
-                    <li><p>Màn hình</p>22</li>
-                    <li><p>Hệ điều hành</p>22</li>
-                    <li><p>Camara sau</p>22</li>
-                    <li><p>Camara trước</p>22</li>
-                    <li><p>CPU</p>22</li>
-                    <li><p>RAM</p>22</li>
-                    <li><p>Bộ nhớ trong</p>22</li>
-                    <li><p>Thẻ nhớ</p>22</li>
-                    <li><p>Dung lượng pin</p>22</li>
+                    <li><p>Màn hình</p><?php echo $row['screen']?></li>
+                    <li><p>Hệ điều hành</p><?php echo $row['os']?></li>
+                    <li><p>Camara sau</p><?php echo $row['camera']?></li>
+                    <li><p>Camara trước</p><?php echo $row['camera_front']?></li>
+                    <li><p>CPU</p><?php echo $row['cpu']?></li>
+                    <li><p>RAM</p><?php echo $row['ram']?></li>
+                    <li><p>Bộ nhớ trong</p><?php echo $row['rom']?></li>
+                    <li><p>Thẻ nhớ</p><?php echo $row['microUSB']?></li>
+                    <li><p>Dung lượng pin</p><?php echo $row['battery']?></li>
                 </ul>
             </div>
         </div>

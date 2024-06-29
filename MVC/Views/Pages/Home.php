@@ -1,6 +1,3 @@
-<?php
-    session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,11 +48,11 @@
 		<div class="pricesRangeFilter dropdown">
 			<button class="dropbtn">Giá tiền</button>
 			<div class="dropdown-content">
-                <a href="">Dưới 2 triệu</a>
-                <a href="">Từ 2 - 4 triệu</a>
-                <a href="">Từ 4 - 7 triệu</a>
-                <a href="">Từ 7 - 13 triệu</a>
-                <a href="">Trên 13 triệu</a>
+                <a href="http://localhost/webproject/home/duoi2trieu">Dưới 2 triệu</a>
+                <a href="http://localhost/webproject/home/tu2den4trieu">Từ 2 - 4 triệu</a>
+                <a href="http://localhost/webproject/home/tu4den7trieu">Từ 4 - 7 triệu</a>
+                <a href="http://localhost/webproject/home/tu7den13trieu">Từ 7 - 13 triệu</a>
+                <a href="http://localhost/webproject/home/tren13trieu">Trên 13 triệu</a>
             </div>
 		</div>
 
@@ -73,10 +70,10 @@
 		<div class="sortFilter dropdown">
 			<button class="dropbtn">Sắp xếp</button>
 			<div class="dropdown-content">
-                <a href="">Giá tăng dần</a>
-                <a href="">Giá giảm dần</a>
-                <a href="">Tên A-Z</a>
-                <a href="">Tên Z-A</a>
+                <a href="http://localhost/webproject/home/priceAsc">Giá tăng dần</a>
+                <a href="http://localhost/webproject/home/priceDecs">Giá giảm dần</a>
+                <a href="http://localhost/webproject/home/nameAsc">Tên A-Z</a>
+                <a href="http://localhost/webproject/home/nameDesc">Tên Z-A</a>
             </div>
 		</div>
 
@@ -110,7 +107,7 @@
         if(isset($data['dulieu'])&&mysqli_num_rows($data['dulieu'])>0){
             while($row = mysqli_fetch_assoc($data['dulieu'])){
     ?>
-	<a href="http://localhost/webproject/chitietsanpham/<?php echo $row['product_id']?>">
+	<a href="http://localhost/webproject/chitietsanpham/hienThiChiTiet/<?php echo $row['product_id']?>">
         <div class="contain-khungSanPham" >
             <div class="product-item">
             <img style="width:150px; height:250px;" src="./Public/Pictures/Products/<?php echo $row['img']?>" alt="<?php echo $row['name']?>">

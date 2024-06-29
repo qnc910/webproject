@@ -34,10 +34,10 @@ function addHeader() {
 
         <div class="content">
             <div class="search-header" style="position: relative; left: 162px; top: 1px;">
-                <form class="input-search" method="get" action="index.html">
+                <form class="input-search" method="get" action="http://localhost/webproject/home/timkiem">
                     <div class="autocomplete">
                         <input id="search-box" name="txtTimkiem" autocomplete="off" type="text" placeholder="Nhập từ khóa tìm kiếm...">
-                        <button type="submit">
+                        <button type="submit" name="btnTimkiem">
                             <i class="fa fa-search"><img style="width:15px; height:15px; opacity:0.5;" src="http://localhost/webproject/Public/Pictures/search.png"></i>
                             Tìm kiếm
                         </button>
@@ -46,11 +46,11 @@ function addHeader() {
                 <div class="tags">
                     <strong>Từ khóa: </strong>
                     <ul>
-                        <li><a href="">Samsung</a></li>
-                        <li><a href="">iPhone</a></li>
-                        <li><a href="">Huawei</a></li>
-                        <li><a href="">Oppo</a></li>
-                        <li><a href="">Mobi</a></li>
+                        <li><a href="http://localhost/webproject/home/Samsung">Samsung</a></li>
+                        <li><a href="http://localhost/webproject/home/Apple">iPhone</a></li>
+                        <li><a href="http://localhost/webproject/home/Huawei">Huawei</a></li>
+                        <li><a href="http://localhost/webproject/home/Oppo">Oppo</a></li>
+                        <li><a href="http://localhost/webproject/home/Mobi">Mobi</a></li>
                     </ul>
                 </div>
             </div> <!-- End Search header -->
