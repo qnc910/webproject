@@ -2,7 +2,7 @@
     class Giohang extends controller{
         private$giohang;
         public function __construct(){
-            $this->giohang=$this->model("Giohang");
+            $this->giohang=$this->model("Cart");
         }
         function Get_data(){
             $this->view('Masterlayout',[

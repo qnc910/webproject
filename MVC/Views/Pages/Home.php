@@ -115,7 +115,6 @@
             <p class="price"><?php echo $row['price']?></p>
             <div class="rating">⭐⭐⭐⭐⭐ 0 đánh giá</div>
             </div>
-            <button class="add-to-cart">+</button>
         </div>
     </a>
     <?php

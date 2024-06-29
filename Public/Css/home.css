@@ -116,7 +116,6 @@
 	width: 20%;
 	justify-content: center;
 	margin: 20px;
-	border: 1px solid gray;
 }
 
 div.product-item:hover{
@@ -152,6 +151,7 @@ div.product-item:hover{
 	border: none;
 	padding: 10px 20px;
 	cursor: pointer;
+	margin: auto;
 }
 
 .khungSanPham {
